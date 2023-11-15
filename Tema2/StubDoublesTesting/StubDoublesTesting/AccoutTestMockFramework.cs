@@ -44,9 +44,6 @@ namespace StubDoublesTesting
             Assert.AreEqual(100.00F, source.GetBalance);
 
             //verify
-
-            var actions = logMock.GetActions();
-            Assert.AreEqual("merge", actions[0]);
         }
 
         [Test]

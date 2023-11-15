@@ -1,54 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<test-run id="2" name="StubDoublesTesting.dll" fullname="C:/FACULTATE/ANUL al IV-lea/Semestrul I/TAS/TAS/Tema2/StubDoublesTesting/StubDoublesTesting/bin/Debug/net7.0/StubDoublesTesting.dll" testcasecount="2" result="Failed" start-time="2023-11-15T21:19:09.0807487Z" end-time="2023-11-15T21:19:09.3878555Z" duration="0.307025" total="2" passed="1" failed="1" inconclusive="0" skipped="0" warnings="0" asserts="7" random-seed="1966919947">
+<test-run id="2" name="StubDoublesTesting.dll" fullname="C:/FACULTATE/ANUL al IV-lea/Semestrul I/TAS/TAS/Tema2/StubDoublesTesting/StubDoublesTesting/bin/Debug/net7.0/StubDoublesTesting.dll" testcasecount="2" result="Passed" start-time="2023-11-15T21:25:11.0132130Z" end-time="2023-11-15T21:25:11.1100341Z" duration="0.096792" total="2" passed="2" failed="0" inconclusive="0" skipped="0" warnings="0" asserts="6" random-seed="1003493952">
   <command-line><![CDATA["C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema2\StubDoublesTesting\StubDoublesTesting\bin\Debug\net7.0\StubDoublesTesting.dll"]]></command-line>
   <filter />
-  <test-suite type="Assembly" id="1003" name="StubDoublesTesting.dll" fullname="C:/FACULTATE/ANUL al IV-lea/Semestrul I/TAS/TAS/Tema2/StubDoublesTesting/StubDoublesTesting/bin/Debug/net7.0/StubDoublesTesting.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-11-15T21:19:09.0807487Z" end-time="2023-11-15T21:19:09.3878555Z" duration="0.307025" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
+  <test-suite type="Assembly" id="1003" name="StubDoublesTesting.dll" fullname="C:/FACULTATE/ANUL al IV-lea/Semestrul I/TAS/TAS/Tema2/StubDoublesTesting/StubDoublesTesting/bin/Debug/net7.0/StubDoublesTesting.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-11-15T21:25:11.0132130Z" end-time="2023-11-15T21:25:11.1100341Z" duration="0.096792" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
     <environment framework-version="3.14.0.0" clr-version="7.0.11" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema2\StubDoublesTesting\StubDoublesTesting\bin\Debug\net7.0" machine-name="DESKTOP-A0UTHC2" user="dutu_" user-domain="DESKTOP-A0UTHC2" culture="en-US" uiculture="en-US" os-architecture="x64" />
     <settings>
       <setting name="WorkDirectory" value="C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema2\StubDoublesTesting\StubDoublesTesting\bin\Debug\net7.0" />
       <setting name="NumberOfTestWorkers" value="12" />
     </settings>
     <properties>
-      <property name="_PID" value="3840" />
+      <property name="_PID" value="7368" />
       <property name="_APPDOMAIN" value="StubDoublesTesting" />
     </properties>
-    <failure>
-      <message><![CDATA[One or more child tests had errors]]></message>
-    </failure>
-    <test-suite type="TestSuite" id="1004" name="StubDoublesTesting" fullname="StubDoublesTesting" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-11-15T21:19:09.0926830Z" end-time="2023-11-15T21:19:09.3878392Z" duration="0.295156" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
-      <failure>
-        <message><![CDATA[One or more child tests had errors]]></message>
-      </failure>
-      <test-suite type="TestFixture" id="1000" name="AccountTestMockFramework" fullname="StubDoublesTesting.AccountTestMockFramework" classname="StubDoublesTesting.AccountTestMockFramework" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2023-11-15T21:19:09.0962037Z" end-time="2023-11-15T21:19:09.3873795Z" duration="0.291176" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
-        <failure>
-          <message><![CDATA[One or more child tests had errors]]></message>
-        </failure>
-        <test-case id="1001" name="TransferFunds" fullname="StubDoublesTesting.AccountTestMockFramework.TransferFunds" methodname="TransferFunds" classname="StubDoublesTesting.AccountTestMockFramework" runstate="Runnable" seed="433968191" result="Failed" start-time="2023-11-15T21:19:09.1013046Z" end-time="2023-11-15T21:19:09.2280108Z" duration="0.126804" asserts="5">
+    <test-suite type="TestSuite" id="1004" name="StubDoublesTesting" fullname="StubDoublesTesting" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-11-15T21:25:11.0175438Z" end-time="2023-11-15T21:25:11.1100236Z" duration="0.092480" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+      <test-suite type="TestFixture" id="1000" name="AccountTestMockFramework" fullname="StubDoublesTesting.AccountTestMockFramework" classname="StubDoublesTesting.AccountTestMockFramework" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-11-15T21:25:11.0190166Z" end-time="2023-11-15T21:25:11.1097507Z" duration="0.090734" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="6">
+        <test-case id="1001" name="TransferFunds" fullname="StubDoublesTesting.AccountTestMockFramework.TransferFunds" methodname="TransferFunds" classname="StubDoublesTesting.AccountTestMockFramework" runstate="Runnable" seed="1612335813" result="Passed" start-time="2023-11-15T21:25:11.0209906Z" end-time="2023-11-15T21:25:11.0347424Z" duration="0.013814" asserts="4">
           <properties>
             <property name="Category" value="pass" />
           </properties>
-          <failure>
-            <message><![CDATA[  Expected string length 5 but was 58. Strings differ at index 0.
-  Expected: "merge"
-  But was:  "Info(11/15/2023 11:19:09 PM) client_source balance is 200."
-  -----------^
-]]></message>
-            <stack-trace><![CDATA[   at StubDoublesTesting.AccountTestMockFramework.TransferFunds() in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema2\StubDoublesTesting\StubDoublesTesting\AccoutTestMockFramework.cs:line 51
-]]></stack-trace>
-          </failure>
-          <assertions>
-            <assertion result="Failed">
-              <message><![CDATA[  Expected string length 5 but was 58. Strings differ at index 0.
-  Expected: "merge"
-  But was:  "Info(11/15/2023 11:19:09 PM) client_source balance is 200."
-  -----------^
-]]></message>
-              <stack-trace><![CDATA[   at StubDoublesTesting.AccountTestMockFramework.TransferFunds() in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema2\StubDoublesTesting\StubDoublesTesting\AccoutTestMockFramework.cs:line 51
-]]></stack-trace>
-            </assertion>
-          </assertions>
+          <output><![CDATA[client_source balance is 200.
+client_destination balance is 150.
+Transfering 100 in destination: client_destination
+New balance of client_destination is 250.
+New balance of client_source is 100.
+]]></output>
         </test-case>
-        <test-case id="1002" name="TransferFundsFromEurAmount_MockFramework_ShouldWork" fullname="StubDoublesTesting.AccountTestMockFramework.TransferFundsFromEurAmount_MockFramework_ShouldWork" methodname="TransferFundsFromEurAmount_MockFramework_ShouldWork" classname="StubDoublesTesting.AccountTestMockFramework" runstate="Runnable" seed="487410497" result="Passed" start-time="2023-11-15T21:19:09.2305942Z" end-time="2023-11-15T21:19:09.3858577Z" duration="0.155263" asserts="2" />
+        <test-case id="1002" name="TransferFundsFromEurAmount_MockFramework_ShouldWork" fullname="StubDoublesTesting.AccountTestMockFramework.TransferFundsFromEurAmount_MockFramework_ShouldWork" methodname="TransferFundsFromEurAmount_MockFramework_ShouldWork" classname="StubDoublesTesting.AccountTestMockFramework" runstate="Runnable" seed="605752197" result="Passed" start-time="2023-11-15T21:25:11.0363338Z" end-time="2023-11-15T21:25:11.1089193Z" duration="0.072585" asserts="2">
+          <output><![CDATA[source balance is 200.
+destination balance is 150.
+New balance of destination is 248.
+New balance of source is 102.
+]]></output>
+        </test-case>
       </test-suite>
     </test-suite>
   </test-suite>

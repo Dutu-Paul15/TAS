@@ -51,6 +51,7 @@ namespace StubDoublesTesting
         public void Info(string message)
         {
             actions.Add(MethodBase.GetCurrentMethod().Name + "(" + DateTime.Now + ") " + message);
+            Console.WriteLine(message);
         }
 
         public void Info(string message, params object[] args)
