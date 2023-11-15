@@ -1,29 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<test-run id="2" name="BankAccountTesting.dll" fullname="C:/FACULTATE/ANUL al IV-lea/Semestrul I/TAS/TAS/Tema1/BankAccountTesting/BankAccountTesting/bin/Debug/net7.0/BankAccountTesting.dll" testcasecount="19" result="Failed" start-time="2023-11-15T17:46:23.5873616Z" end-time="2023-11-15T17:46:23.7258240Z" duration="0.138417" total="19" passed="13" failed="6" inconclusive="0" skipped="0" warnings="0" asserts="8" random-seed="1773138499">
+<test-run id="2" name="BankAccountTesting.dll" fullname="C:/FACULTATE/ANUL al IV-lea/Semestrul I/TAS/TAS/Tema1/BankAccountTesting/BankAccountTesting/bin/Debug/net7.0/BankAccountTesting.dll" testcasecount="11" result="Passed" start-time="2023-11-15T20:08:47.4902393Z" end-time="2023-11-15T20:08:47.5486054Z" duration="0.058322" total="11" passed="11" failed="0" inconclusive="0" skipped="0" warnings="0" asserts="12" random-seed="319653898">
   <command-line><![CDATA["C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\bin\Debug\net7.0\BankAccountTesting.dll"]]></command-line>
   <filter />
-  <test-suite type="Assembly" id="1024" name="BankAccountTesting.dll" fullname="C:/FACULTATE/ANUL al IV-lea/Semestrul I/TAS/TAS/Tema1/BankAccountTesting/BankAccountTesting/bin/Debug/net7.0/BankAccountTesting.dll" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2023-11-15T17:46:23.5873616Z" end-time="2023-11-15T17:46:23.7258240Z" duration="0.138417" total="19" passed="13" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="8">
+  <test-suite type="Assembly" id="1016" name="BankAccountTesting.dll" fullname="C:/FACULTATE/ANUL al IV-lea/Semestrul I/TAS/TAS/Tema1/BankAccountTesting/BankAccountTesting/bin/Debug/net7.0/BankAccountTesting.dll" runstate="Runnable" testcasecount="11" result="Passed" start-time="2023-11-15T20:08:47.4902393Z" end-time="2023-11-15T20:08:47.5486054Z" duration="0.058322" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
     <environment framework-version="3.13.3.0" clr-version="7.0.11" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\bin\Debug\net7.0" machine-name="DESKTOP-A0UTHC2" user="dutu_" user-domain="DESKTOP-A0UTHC2" culture="en-US" uiculture="en-US" os-architecture="x64" />
     <settings>
       <setting name="WorkDirectory" value="C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\bin\Debug\net7.0" />
       <setting name="NumberOfTestWorkers" value="12" />
     </settings>
     <properties>
-      <property name="_PID" value="17556" />
+      <property name="_PID" value="22956" />
       <property name="_APPDOMAIN" value="BankAccountTesting" />
     </properties>
-    <failure>
-      <message><![CDATA[One or more child tests had errors]]></message>
-    </failure>
-    <test-suite type="TestSuite" id="1025" name="BankAccountTesting" fullname="BankAccountTesting" runstate="Runnable" testcasecount="19" result="Failed" site="Child" start-time="2023-11-15T17:46:23.5949284Z" end-time="2023-11-15T17:46:23.7258125Z" duration="0.130884" total="19" passed="13" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="8">
-      <failure>
-        <message><![CDATA[One or more child tests had errors]]></message>
-      </failure>
-      <test-suite type="TestFixture" id="1000" name="AccountTest" fullname="BankAccountTesting.AccountTest" classname="BankAccountTesting.AccountTest" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2023-11-15T17:46:23.5974935Z" end-time="2023-11-15T17:46:23.7196935Z" duration="0.122200" total="16" passed="10" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="5">
-        <failure>
-          <message><![CDATA[One or more child tests had errors]]></message>
-        </failure>
-        <test-case id="1001" name="TransferFunds" fullname="BankAccountTesting.AccountTest.TransferFunds" methodname="TransferFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="960336778" result="Passed" start-time="2023-11-15T17:46:23.6011442Z" end-time="2023-11-15T17:46:23.6221915Z" duration="0.021168" asserts="2">
+    <test-suite type="TestSuite" id="1017" name="BankAccountTesting" fullname="BankAccountTesting" runstate="Runnable" testcasecount="11" result="Passed" start-time="2023-11-15T20:08:47.4968168Z" end-time="2023-11-15T20:08:47.5485972Z" duration="0.051780" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="12">
+      <test-suite type="TestFixture" id="1000" name="AccountTest" fullname="BankAccountTesting.AccountTest" classname="BankAccountTesting.AccountTest" runstate="Runnable" testcasecount="8" result="Passed" start-time="2023-11-15T20:08:47.4988008Z" end-time="2023-11-15T20:08:47.5436322Z" duration="0.044831" total="8" passed="8" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+        <test-case id="1001" name="TransferFunds" fullname="BankAccountTesting.AccountTest.TransferFunds" methodname="TransferFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1537640798" result="Passed" start-time="2023-11-15T20:08:47.5016294Z" end-time="2023-11-15T20:08:47.5189312Z" duration="0.017397" asserts="2">
           <properties>
             <property name="Category" value="pass" />
           </properties>
@@ -34,11 +25,11 @@ New balance of  is 250.
 New balance of  is 100.
 ]]></output>
         </test-case>
-        <test-suite type="ParameterizedMethod" id="1005" name="TransferMinFunds" fullname="BankAccountTesting.AccountTest.TransferMinFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-11-15T17:46:23.6261514Z" end-time="2023-11-15T17:46:23.6303562Z" duration="0.004205" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+        <test-suite type="ParameterizedMethod" id="1005" name="TransferMinFunds" fullname="BankAccountTesting.AccountTest.TransferMinFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-11-15T20:08:47.5216611Z" end-time="2023-11-15T20:08:47.5270497Z" duration="0.005389" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
           <properties>
             <property name="Category" value="pass" />
           </properties>
-          <test-case id="1002" name="TransferMinFunds(200,0,78)" fullname="BankAccountTesting.AccountTest.TransferMinFunds(200,0,78)" methodname="TransferMinFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1243805789" result="Passed" start-time="2023-11-15T17:46:23.6267485Z" end-time="2023-11-15T17:46:23.6282453Z" duration="0.001497" asserts="1">
+          <test-case id="1002" name="TransferMinFunds(200,0,78)" fullname="BankAccountTesting.AccountTest.TransferMinFunds(200,0,78)" methodname="TransferMinFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="422044788" result="Passed" start-time="2023-11-15T20:08:47.5219853Z" end-time="2023-11-15T20:08:47.5240627Z" duration="0.002078" asserts="1">
             <output><![CDATA[New balance of  is 200.
 New balance of  is 150.
 New balance of  is 200.
@@ -47,7 +38,7 @@ New balance of  is 78.
 New balance of  is 122.
 ]]></output>
           </test-case>
-          <test-case id="1003" name="TransferMinFunds(200,0,189)" fullname="BankAccountTesting.AccountTest.TransferMinFunds(200,0,189)" methodname="TransferMinFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1916884368" result="Passed" start-time="2023-11-15T17:46:23.6283673Z" end-time="2023-11-15T17:46:23.6287144Z" duration="0.000347" asserts="1">
+          <test-case id="1003" name="TransferMinFunds(200,0,189)" fullname="BankAccountTesting.AccountTest.TransferMinFunds(200,0,189)" methodname="TransferMinFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="717280414" result="Passed" start-time="2023-11-15T20:08:47.5241606Z" end-time="2023-11-15T20:08:47.5246785Z" duration="0.000518" asserts="1">
             <output><![CDATA[New balance of  is 200.
 New balance of  is 150.
 New balance of  is 200.
@@ -56,7 +47,7 @@ New balance of  is 189.
 New balance of  is 11.
 ]]></output>
           </test-case>
-          <test-case id="1004" name="TransferMinFunds(200,0,1)" fullname="BankAccountTesting.AccountTest.TransferMinFunds(200,0,1)" methodname="TransferMinFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1398762422" result="Passed" start-time="2023-11-15T17:46:23.6287338Z" end-time="2023-11-15T17:46:23.6287709Z" duration="0.000037" asserts="1">
+          <test-case id="1004" name="TransferMinFunds(200,0,1)" fullname="BankAccountTesting.AccountTest.TransferMinFunds(200,0,1)" methodname="TransferMinFunds" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="832415712" result="Passed" start-time="2023-11-15T20:08:47.5247249Z" end-time="2023-11-15T20:08:47.5247929Z" duration="0.000068" asserts="1">
             <output><![CDATA[New balance of  is 200.
 New balance of  is 150.
 New balance of  is 200.
@@ -66,53 +57,18 @@ New balance of  is 199.
 ]]></output>
           </test-case>
         </test-suite>
-        <test-suite type="ParameterizedMethod" id="1010" name="TransferMinFundsFail" fullname="BankAccountTesting.AccountTest.TransferMinFundsFail" classname="BankAccountTesting.AccountTest" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2023-11-15T17:46:23.6309984Z" end-time="2023-11-15T17:46:23.7143550Z" duration="0.083357" total="4" passed="2" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="ParameterizedMethod" id="1008" name="TransferMinFundsFail" fullname="BankAccountTesting.AccountTest.TransferMinFundsFail" classname="BankAccountTesting.AccountTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-11-15T20:08:47.5281085Z" end-time="2023-11-15T20:08:47.5417480Z" duration="0.013639" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
           <properties>
             <property name="Category" value="fail" />
           </properties>
-          <failure>
-            <message><![CDATA[One or more child tests had errors]]></message>
-          </failure>
-          <test-case id="1006" name="TransferMinFundsFail(200,150,190)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFail(200,150,190)" methodname="TransferMinFundsFail" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1602653803" result="Failed" label="Error" start-time="2023-11-15T17:46:23.6310232Z" end-time="2023-11-15T17:46:23.7102379Z" duration="0.079215" asserts="0">
-            <failure>
-              <message><![CDATA[BankAccountTesting.NotEnoughFundsException : Error in the application.]]></message>
-              <stack-trace><![CDATA[   at BankAccountTesting.Account.TransferMinFunds(Account destination, Single amount) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\Account.cs:line 54
-   at BankAccountTesting.AccountTest.TransferMinFundsFail(Int32 a, Int32 b, Int32 c) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\AccountTest.cs:line 68
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
-   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)]]></stack-trace>
-            </failure>
+          <test-case id="1006" name="TransferMinFundsFail(200,150,190)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFail(200,150,190)" methodname="TransferMinFundsFail" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="979775847" result="Passed" start-time="2023-11-15T20:08:47.5281509Z" end-time="2023-11-15T20:08:47.5410257Z" duration="0.012875" asserts="1">
             <output><![CDATA[New balance of  is 200.
 New balance of  is 150.
 New balance of  is 200.
 New balance of  is 150.
 ]]></output>
           </test-case>
-          <test-case id="1007" name="TransferMinFundsFail(200,150,-1)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFail(200,150,-1)" methodname="TransferMinFundsFail" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1551333979" result="Passed" start-time="2023-11-15T17:46:23.7106226Z" end-time="2023-11-15T17:46:23.7111526Z" duration="0.000530" asserts="0">
-            <output><![CDATA[New balance of  is 200.
-New balance of  is 150.
-New balance of  is 200.
-New balance of  is 150.
-New balance of  is 149.
-New balance of  is 201.
-]]></output>
-          </test-case>
-          <test-case id="1008" name="TransferMinFundsFail(200,150,-142)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFail(200,150,-142)" methodname="TransferMinFundsFail" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1728107768" result="Passed" start-time="2023-11-15T17:46:23.7113372Z" end-time="2023-11-15T17:46:23.7115053Z" duration="0.000168" asserts="0">
-            <output><![CDATA[New balance of  is 200.
-New balance of  is 150.
-New balance of  is 200.
-New balance of  is 150.
-New balance of  is 8.
-New balance of  is 342.
-]]></output>
-          </test-case>
-          <test-case id="1009" name="TransferMinFundsFail(200,150,345)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFail(200,150,345)" methodname="TransferMinFundsFail" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1377484910" result="Failed" label="Error" start-time="2023-11-15T17:46:23.7115772Z" end-time="2023-11-15T17:46:23.7139784Z" duration="0.002402" asserts="0">
-            <failure>
-              <message><![CDATA[BankAccountTesting.NotEnoughFundsException : Error in the application.]]></message>
-              <stack-trace><![CDATA[   at BankAccountTesting.Account.TransferMinFunds(Account destination, Single amount) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\Account.cs:line 54
-   at BankAccountTesting.AccountTest.TransferMinFundsFail(Int32 a, Int32 b, Int32 c) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\AccountTest.cs:line 68
-   at InvokeStub_AccountTest.TransferMinFundsFail(Object, Object, IntPtr*)
-   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)]]></stack-trace>
-            </failure>
+          <test-case id="1007" name="TransferMinFundsFail(200,150,345)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFail(200,150,345)" methodname="TransferMinFundsFail" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="860261222" result="Passed" start-time="2023-11-15T20:08:47.5410649Z" end-time="2023-11-15T20:08:47.5416429Z" duration="0.000579" asserts="1">
             <output><![CDATA[New balance of  is 200.
 New balance of  is 150.
 New balance of  is 200.
@@ -120,117 +76,35 @@ New balance of  is 150.
 ]]></output>
           </test-case>
         </test-suite>
-        <test-suite type="ParameterizedMethod" id="1019" name="TransferMinFundsFailAll" fullname="BankAccountTesting.AccountTest.TransferMinFundsFailAll" classname="BankAccountTesting.AccountTest" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2023-11-15T17:46:23.7154270Z" end-time="2023-11-15T17:46:23.7193302Z" duration="0.003902" total="8" passed="4" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="ParameterizedMethod" id="1011" name="TransferMinFundsNegative" fullname="BankAccountTesting.AccountTest.TransferMinFundsNegative" classname="BankAccountTesting.AccountTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2023-11-15T20:08:47.5417796Z" end-time="2023-11-15T20:08:47.5434401Z" duration="0.001661" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
           <properties>
             <property name="Category" value="fail" />
-            <property name="_JOINTYPE" value="Combinatorial" />
           </properties>
-          <failure>
-            <message><![CDATA[One or more child tests had errors]]></message>
-          </failure>
-          <test-case id="1011" name="TransferMinFundsFailAll(200,0,190)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFailAll(200,0,190)" methodname="TransferMinFundsFailAll" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1923237042" result="Failed" label="Error" start-time="2023-11-15T17:46:23.7155472Z" end-time="2023-11-15T17:46:23.7169970Z" duration="0.001450" asserts="0">
-            <failure>
-              <message><![CDATA[BankAccountTesting.NotEnoughFundsException : Error in the application.]]></message>
-              <stack-trace><![CDATA[   at BankAccountTesting.Account.TransferMinFunds(Account destination, Single amount) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\Account.cs:line 54
-   at BankAccountTesting.AccountTest.TransferMinFundsFailAll(Int32 a, Int32 b, Int32 c) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\AccountTest.cs:line 82
-   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
-   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)]]></stack-trace>
-            </failure>
+          <test-case id="1009" name="TransferMinFundsNegative(200,150,-1)" fullname="BankAccountTesting.AccountTest.TransferMinFundsNegative(200,150,-1)" methodname="TransferMinFundsNegative" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1840881066" result="Passed" start-time="2023-11-15T20:08:47.5418173Z" end-time="2023-11-15T20:08:47.5428243Z" duration="0.001008" asserts="1">
             <output><![CDATA[New balance of  is 200.
 New balance of  is 150.
 New balance of  is 200.
-New balance of  is 0.
+New balance of  is 150.
 ]]></output>
           </test-case>
-          <test-case id="1012" name="TransferMinFundsFailAll(200,0,345)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFailAll(200,0,345)" methodname="TransferMinFundsFailAll" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="121747906" result="Failed" label="Error" start-time="2023-11-15T17:46:23.7171210Z" end-time="2023-11-15T17:46:23.7184064Z" duration="0.001285" asserts="0">
-            <failure>
-              <message><![CDATA[BankAccountTesting.NotEnoughFundsException : Error in the application.]]></message>
-              <stack-trace><![CDATA[   at BankAccountTesting.Account.TransferMinFunds(Account destination, Single amount) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\Account.cs:line 54
-   at BankAccountTesting.AccountTest.TransferMinFundsFailAll(Int32 a, Int32 b, Int32 c) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\AccountTest.cs:line 82
-   at InvokeStub_AccountTest.TransferMinFundsFailAll(Object, Object, IntPtr*)
-   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)]]></stack-trace>
-            </failure>
+          <test-case id="1010" name="TransferMinFundsNegative(200,150,-142)" fullname="BankAccountTesting.AccountTest.TransferMinFundsNegative(200,150,-142)" methodname="TransferMinFundsNegative" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1404307361" result="Passed" start-time="2023-11-15T20:08:47.5428559Z" end-time="2023-11-15T20:08:47.5434140Z" duration="0.000558" asserts="1">
             <output><![CDATA[New balance of  is 200.
 New balance of  is 150.
 New balance of  is 200.
-New balance of  is 0.
-]]></output>
-          </test-case>
-          <test-case id="1013" name="TransferMinFundsFailAll(200,20,190)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFailAll(200,20,190)" methodname="TransferMinFundsFailAll" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="2035873389" result="Failed" label="Error" start-time="2023-11-15T17:46:23.7184459Z" end-time="2023-11-15T17:46:23.7188265Z" duration="0.000381" asserts="0">
-            <failure>
-              <message><![CDATA[BankAccountTesting.NotEnoughFundsException : Error in the application.]]></message>
-              <stack-trace><![CDATA[   at BankAccountTesting.Account.TransferMinFunds(Account destination, Single amount) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\Account.cs:line 54
-   at BankAccountTesting.AccountTest.TransferMinFundsFailAll(Int32 a, Int32 b, Int32 c) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\AccountTest.cs:line 82
-   at InvokeStub_AccountTest.TransferMinFundsFailAll(Object, Object, IntPtr*)
-   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)]]></stack-trace>
-            </failure>
-            <output><![CDATA[New balance of  is 200.
 New balance of  is 150.
-New balance of  is 200.
-New balance of  is 20.
-]]></output>
-          </test-case>
-          <test-case id="1014" name="TransferMinFundsFailAll(200,20,345)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFailAll(200,20,345)" methodname="TransferMinFundsFailAll" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="721094612" result="Failed" label="Error" start-time="2023-11-15T17:46:23.7188460Z" end-time="2023-11-15T17:46:23.7191352Z" duration="0.000289" asserts="0">
-            <failure>
-              <message><![CDATA[BankAccountTesting.NotEnoughFundsException : Error in the application.]]></message>
-              <stack-trace><![CDATA[   at BankAccountTesting.Account.TransferMinFunds(Account destination, Single amount) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\Account.cs:line 54
-   at BankAccountTesting.AccountTest.TransferMinFundsFailAll(Int32 a, Int32 b, Int32 c) in C:\FACULTATE\ANUL al IV-lea\Semestrul I\TAS\TAS\Tema1\BankAccountTesting\BankAccountTesting\AccountTest.cs:line 82
-   at InvokeStub_AccountTest.TransferMinFundsFailAll(Object, Object, IntPtr*)
-   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)]]></stack-trace>
-            </failure>
-            <output><![CDATA[New balance of  is 200.
-New balance of  is 150.
-New balance of  is 200.
-New balance of  is 20.
-]]></output>
-          </test-case>
-          <test-case id="1015" name="TransferMinFundsFailAll(500,0,190)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFailAll(500,0,190)" methodname="TransferMinFundsFailAll" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1156336844" result="Passed" start-time="2023-11-15T17:46:23.7191529Z" end-time="2023-11-15T17:46:23.7191942Z" duration="0.000041" asserts="0">
-            <output><![CDATA[New balance of  is 200.
-New balance of  is 150.
-New balance of  is 500.
-New balance of  is 0.
-New balance of  is 190.
-New balance of  is 310.
-]]></output>
-          </test-case>
-          <test-case id="1016" name="TransferMinFundsFailAll(500,0,345)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFailAll(500,0,345)" methodname="TransferMinFundsFailAll" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1445418063" result="Passed" start-time="2023-11-15T17:46:23.7192102Z" end-time="2023-11-15T17:46:23.7192336Z" duration="0.000023" asserts="0">
-            <output><![CDATA[New balance of  is 200.
-New balance of  is 150.
-New balance of  is 500.
-New balance of  is 0.
-New balance of  is 345.
-New balance of  is 155.
-]]></output>
-          </test-case>
-          <test-case id="1017" name="TransferMinFundsFailAll(500,20,190)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFailAll(500,20,190)" methodname="TransferMinFundsFailAll" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1961299329" result="Passed" start-time="2023-11-15T17:46:23.7192422Z" end-time="2023-11-15T17:46:23.7192638Z" duration="0.000022" asserts="0">
-            <output><![CDATA[New balance of  is 200.
-New balance of  is 150.
-New balance of  is 500.
-New balance of  is 20.
-New balance of  is 210.
-New balance of  is 310.
-]]></output>
-          </test-case>
-          <test-case id="1018" name="TransferMinFundsFailAll(500,20,345)" fullname="BankAccountTesting.AccountTest.TransferMinFundsFailAll(500,20,345)" methodname="TransferMinFundsFailAll" classname="BankAccountTesting.AccountTest" runstate="Runnable" seed="1026717579" result="Passed" start-time="2023-11-15T17:46:23.7192720Z" end-time="2023-11-15T17:46:23.7193108Z" duration="0.000039" asserts="0">
-            <output><![CDATA[New balance of  is 200.
-New balance of  is 150.
-New balance of  is 500.
-New balance of  is 20.
-New balance of  is 365.
-New balance of  is 155.
 ]]></output>
           </test-case>
         </test-suite>
       </test-suite>
-      <test-suite type="TestFixture" id="1020" name="AnotherTestClass" fullname="BankAccountTesting.AnotherTestClass" classname="BankAccountTesting.AnotherTestClass" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-11-15T17:46:23.7221173Z" end-time="2023-11-15T17:46:23.7257974Z" duration="0.003680" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
-        <test-case id="1021" name="VerifyIfConstructorWorksOk" fullname="BankAccountTesting.AnotherTestClass.VerifyIfConstructorWorksOk" methodname="VerifyIfConstructorWorksOk" classname="BankAccountTesting.AnotherTestClass" runstate="Runnable" seed="1251352490" result="Passed" start-time="2023-11-15T17:46:23.7227091Z" end-time="2023-11-15T17:46:23.7235334Z" duration="0.000824" asserts="1">
+      <test-suite type="TestFixture" id="1012" name="AnotherTestClass" fullname="BankAccountTesting.AnotherTestClass" classname="BankAccountTesting.AnotherTestClass" runstate="Runnable" testcasecount="3" result="Passed" start-time="2023-11-15T20:08:47.5454508Z" end-time="2023-11-15T20:08:47.5485610Z" duration="0.003110" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+        <test-case id="1013" name="VerifyIfConstructorWorksOk" fullname="BankAccountTesting.AnotherTestClass.VerifyIfConstructorWorksOk" methodname="VerifyIfConstructorWorksOk" classname="BankAccountTesting.AnotherTestClass" runstate="Runnable" seed="2005062334" result="Passed" start-time="2023-11-15T20:08:47.5458003Z" end-time="2023-11-15T20:08:47.5464824Z" duration="0.000682" asserts="1">
           <output><![CDATA[Setup !
 testAccount balance is 10.
 VerifyIfConstructorWorksOk
 --------Constructor method passed---------
 ]]></output>
         </test-case>
-        <test-case id="1023" name="VerifyTransferFundsInDestination" fullname="BankAccountTesting.AnotherTestClass.VerifyTransferFundsInDestination" methodname="VerifyTransferFundsInDestination" classname="BankAccountTesting.AnotherTestClass" runstate="Runnable" seed="545725805" result="Passed" start-time="2023-11-15T17:46:23.7235922Z" end-time="2023-11-15T17:46:23.7249843Z" duration="0.001392" asserts="1">
+        <test-case id="1015" name="VerifyTransferFundsInDestination" fullname="BankAccountTesting.AnotherTestClass.VerifyTransferFundsInDestination" methodname="VerifyTransferFundsInDestination" classname="BankAccountTesting.AnotherTestClass" runstate="Runnable" seed="1441075220" result="Passed" start-time="2023-11-15T20:08:47.5465079Z" end-time="2023-11-15T20:08:47.5479499Z" duration="0.001443" asserts="1">
           <output><![CDATA[Setup !
 testAccount balance is 10.
 account1 balance is 100.
@@ -244,7 +118,7 @@ New balance of account1 is 70.
 
 ]]></output>
         </test-case>
-        <test-case id="1022" name="VerifyTransferFundsInSource" fullname="BankAccountTesting.AnotherTestClass.VerifyTransferFundsInSource" methodname="VerifyTransferFundsInSource" classname="BankAccountTesting.AnotherTestClass" runstate="Runnable" seed="325203916" result="Passed" start-time="2023-11-15T17:46:23.7250241Z" end-time="2023-11-15T17:46:23.7257474Z" duration="0.000724" asserts="1">
+        <test-case id="1014" name="VerifyTransferFundsInSource" fullname="BankAccountTesting.AnotherTestClass.VerifyTransferFundsInSource" methodname="VerifyTransferFundsInSource" classname="BankAccountTesting.AnotherTestClass" runstate="Runnable" seed="908950754" result="Passed" start-time="2023-11-15T20:08:47.5479903Z" end-time="2023-11-15T20:08:47.5485168Z" duration="0.000527" asserts="1">
           <output><![CDATA[Setup !
 testAccount balance is 10.
 account1 balance is 100.

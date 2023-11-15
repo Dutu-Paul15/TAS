@@ -46,12 +46,12 @@ namespace BankAccountTesting
 
         public Account TransferMinFunds(Account destination, float amount)
         {
-            if (GetBalance - amount > GetMinBalance)
-            {
-                destination.Deposit(amount);
-                Withdraw(amount);
-            }
-            else throw new NotEnoughFundsException();
+            if (amount < 0) throw new Exception("Amount cannot have a negative value!");
+            if (GetBalance - amount <= GetMinBalance) throw new NotEnoughFundsException("Not enough funds! ");
+
+            destination.Deposit(amount);
+            Withdraw(amount);
+
             return destination;
         }
 

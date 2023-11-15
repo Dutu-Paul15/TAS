@@ -51,13 +51,10 @@ namespace BankAccountTesting
             Assert.AreEqual(c, destination.GetBalance);
         }
 
-        [Test, ExpectedException(typeof(NotEnoughFundsException))]
+        [Test]
         [Category("fail")]
         [TestCase(200, 150, 190)]
-        [TestCase(200, 150, -1)]
-        [TestCase(200, 150, -142)]
         [TestCase(200, 150, 345)]
-
         public void TransferMinFundsFail(int a, int b, int c)
         {
             Account source = new();
@@ -65,30 +62,30 @@ namespace BankAccountTesting
             Account destination = new();
             destination.Deposit(b);
 
-            destination = source.TransferMinFunds(destination, c);
-            
+            Assert.Throws<NotEnoughFundsException>(delegate { source.TransferMinFunds(destination, c); });
         }
 
-        [Test, ExpectedException(typeof(NotEnoughFundsException))]
+        [Test]
         [Category("fail")]
-        [Combinatorial]
-        public void TransferMinFundsFailAll([Values (200, 500)] int a, [Values (0,20)] int b, [Values (190,345) ]int c)
+        [TestCase(200, 150, -1)]
+        [TestCase(200, 150, -142)]
+        public void TransferMinFundsNegative(int a, int b, int c)
         {
             Account source = new();
             source.Deposit(a);
             Account destination = new();
             destination.Deposit(b);
 
-            destination = source.TransferMinFunds(destination, c);
+            Assert.Throws<Exception>(delegate { source.TransferMinFunds(destination, c); });
         }
 
     }
 
-    public class NotEnoughFundsException : ApplicationException
+    public class NotEnoughFundsException : Exception
     {
-        public static string ApplicationException(String message)
+        public NotEnoughFundsException(String message): base(message)
         {
-            return message;
+            
         }
     }
 }

@@ -14,60 +14,54 @@ namespace StubDoublesTesting
     [TestFixture]
     public class AccountTestMockFramework
     {
-
         [SetUp]
         public void InitAccount()
         {
             //arrange
         }
-
         [Test]
         [Category("pass")]
         public void TransferFunds()
         {
 
             //arrange the MockObject
-            var logMock = new Mock<ILogger>();
+            var logMock = new LogSpy();
 
             //arrange SUT
-             
-            var client = new ClientDummy();
-            var source = new Account(200, "client_source");
-            var destination = new Account(150, "client_destination");
+            var source = new Account(200, "client_source", logMock);
+            var destination = new Account(150, "client_destination", logMock);
 
             //set mocked logger expectations
 
-            logMock.Setup(d => d.Info("method Log was called with message : Transaction : 100 & 250"));
-
-           //logMock.ExpectedNumberOfCalls(1);
+            Assert.AreEqual(2, logMock.GetNumberOfCalls());
             //act
 
             source.TransferFunds(destination, 100.00F);
+            Assert.AreEqual(5, logMock.GetNumberOfCalls());
 
             //assert 
             Assert.AreEqual(250.00F, destination.GetBalance);
             Assert.AreEqual(100.00F, source.GetBalance);
 
-            //mock object verify
+            //verify
 
-            logMock.Verify();
-
+            var actions = logMock.GetActions();
+            Assert.AreEqual("merge", actions[0]);
         }
 
         [Test]
         public void TransferFundsFromEurAmount_MockFramework_ShouldWork()
         {
-
             //arrange
-
-            var source = new Account(200, "source");
-            var destination = new Account(150, "destination");
+            var logMock = new LogSpy();
+            var source = new Account(200, "source", logMock);
+            var destination = new Account(150, "destination", logMock);
 
             var rateEurRon = 4.9F;
             CurrencyConvertorStub currencyConvertorStub = new(rateEurRon);
-            var convertorMock = new Mock<ICurrencyConvertor>();
-            convertorMock.SetReturnsDefault(currencyConvertorStub);
-            convertorMock.Setup(_ => _.EurToRon(20, rateEurRon)); ; // set mock to act as a TestDouble Stub - gives IndirectInputs to the SUT
+            var convertorMock = new Mock<ICurrencyConvertor>() { CallBase = true};
+            
+            convertorMock.Setup(_ => _.EurToRon(20.00F, rateEurRon)); // set mock to act as a TestDouble Stub - gives IndirectInputs to the SUT
             //act
             source.TransferFundsFromEurAmount_Version3(destination, source, 20.00F, rateEurRon, convertorMock.Object);
 
@@ -75,7 +69,7 @@ namespace StubDoublesTesting
             Assert.AreEqual(150.00F + (20 * rateEurRon), destination.GetBalance);
             Assert.AreEqual(200.00F - (20 * rateEurRon), source.GetBalance);
 
-            //convertorMock.Verify(_ => _.EurToRon(20, rateEurRon), Times.Once()); //verify behavior 
+            convertorMock.Verify(_ => _.EurToRon(20, rateEurRon), Times.Once()); //verify behavior 
         }
     }
 }

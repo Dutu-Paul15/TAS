@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnit.Framework.Internal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,35 +12,36 @@ namespace StubDoublesTesting
         private float balance;
         private string name;
         private float minBalance = 10;
-
+        private ILogger logger;
         public Account()
         {
             balance = 0;
             name = string.Empty;
         }
 
-        public Account(int value, string name)
+        public Account(int value, string name, ILogger logger)
         {
             balance = value;
             this.name = name;
-            Console.WriteLine($"{name} balance is {balance}.");
+            this.logger = logger;
+            logger.Info($"{name} balance is {balance}.");
         }
 
         public void Deposit(float amount)
         {
             balance += amount;
-            Console.WriteLine($"New balance of {this.name} is {this.balance}.");
+            logger.Info($"New balance of {this.name} is {this.balance}.");
         }
 
         public void Withdraw(float amount)
         {
             balance -= amount;
-            Console.WriteLine($"New balance of {this.name} is {this.balance}.");
+            logger.Info($"New balance of {this.name} is {this.balance}.");
         }
 
         public void TransferFunds(Account destination, float amount)
         {
-            Console.WriteLine($"Transfering {amount} in destination: {destination.name}");
+            logger.Info($"Transfering {amount} in destination: {destination.name}");
             destination.Deposit(amount);
             Withdraw(amount);
         }
@@ -60,8 +62,9 @@ namespace StubDoublesTesting
 
         internal void TransferFundsFromEurAmount_Version3(Account destination, Account source, float v, float rate, ICurrencyConvertor @object)
         {
-            ICurrencyConvertor currencyConvertor = new CurrencyConvertorStub(rate);
+            ICurrencyConvertor currencyConvertor = @object;
             float amount = currencyConvertor.EurToRon(v, rate);
+
             destination.Deposit(amount);
             source.Withdraw(amount);
         }
