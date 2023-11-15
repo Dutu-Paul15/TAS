@@ -4055,11 +4055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj",
+      "projectUniqueName": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj",
       "projectName": "StubDoublesTesting",
-      "projectPath": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj",
+      "projectPath": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj",
       "packagesPath": "C:\\Users\\dutu_\\.nuget\\packages\\",
-      "outputPath": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\obj\\",
+      "outputPath": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

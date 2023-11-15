@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vxm7JD4sauKmCkLUtI2LiXYg6yA8U6YTnxLeS724qfHFcYiBCyrKUrUOKo/b+XXauzgGPIydurwVND2xKL7toA==",
+  "dgSpecHash": "12FRWLYFG1xBWDBEGHeb5jIe03rTvTFOgRxQFzrp46UuOOJqofghV+hYGyv6KEOKIwlwbNzT/Oz8BcprmJ5bPQ==",
   "success": true,
-  "projectFilePath": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj",
+  "projectFilePath": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dutu_\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\dutu_\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
