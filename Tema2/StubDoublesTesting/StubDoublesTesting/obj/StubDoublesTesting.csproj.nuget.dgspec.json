@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj": {}
+  },
+  "projects": {
+    "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj",
+        "projectName": "StubDoublesTesting",
+        "projectPath": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\StubDoublesTesting.csproj",
+        "packagesPath": "C:\\Users\\dutu_\\.nuget\\packages\\",
+        "outputPath": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\Tema2\\StubDoublesTesting\\StubDoublesTesting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dutu_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.TestPlatform": {
+              "target": "Package",
+              "version": "[17.7.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[7.0.31, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnitLite": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "TeixeiraSoftware.Finance.Currency": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

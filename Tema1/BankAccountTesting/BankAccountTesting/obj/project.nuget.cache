@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "xXE0IfcQbW57aLnp/kSTumFYNjCQj64bxpfdXedXBmjlNLLuts43GYD51wjnNd9s0g+lFbYIhcKOpBSOBdRvhQ==",
+  "success": true,
+  "projectFilePath": "C:\\FACULTATE\\ANUL al IV-lea\\Semestrul I\\TAS\\TAS\\Tema1\\BankAccountTesting\\BankAccountTesting\\BankAccountTesting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dutu_\\.nuget\\packages\\mstest.testframework\\3.1.1\\mstest.testframework.3.1.1.nupkg.sha512",
+    "C:\\Users\\dutu_\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\dutu_\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\dutu_\\.nuget\\packages\\nunitlite\\3.13.3\\nunitlite.3.13.3.nupkg.sha512"
+  ],
+  "logs": []
+}
